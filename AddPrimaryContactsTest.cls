@@ -16,7 +16,7 @@ private class AddPrimaryContactTest {
         insert accounts;
     }
 
-    static void myTest() {
+    static TestMethod void myTest() {
         Contact contactObj = new Contact(
             FirstName = 'California',
             LastName = 'Bob'
